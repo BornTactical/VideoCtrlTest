@@ -1,0 +1,12 @@
+uses
+	CtrlLib,
+	VideoCtrl;
+
+file
+	VideoCtrlTest.h,
+	main.cpp,
+	VideoCtrlTest.lay;
+
+mainconfig
+	"" = "GUI SSE2 MT";
+

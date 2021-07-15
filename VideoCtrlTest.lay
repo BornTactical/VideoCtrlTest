@@ -1,0 +1,12 @@
+LAYOUT(VideoCtrlTestLayout, 504, 368)
+	ITEM(VideoCtrl, videoCtrl, HSizePosZ(0, 0).VSizePosZ(0, 56))
+	ITEM(Upp::Button, openBtn, SetLabel(t_("…")).SetFrame(BlackFrame()).HCenterPosZ(36, -110).BottomPosZ(8, 20))
+	ITEM(Upp::Button, rewindBtn, SetLabel(t_("<<")).SetFrame(BlackFrame()).HCenterPosZ(40, -68).BottomPosZ(8, 20))
+	ITEM(Upp::Button, stopBtn, SetLabel(t_("⬛")).SetFrame(BlackFrame()).HCenterPosZ(40, -24).BottomPosZ(8, 20))
+	ITEM(Upp::Button, fforwardBtn, SetLabel(t_(">>")).SetFrame(BlackFrame()).HCenterPosZ(40, 108).BottomPosZ(8, 20))
+	ITEM(Upp::Button, playBtn, SetLabel(t_("▶")).SetFrame(BlackFrame()).HCenterPosZ(40, 20).BottomPosZ(8, 20))
+	ITEM(Upp::Button, pauseBtn, SetLabel(t_("||")).SetFrame(BlackFrame()).HCenterPosZ(40, 64).BottomPosZ(8, 20))
+	ITEM(VideoSliderCtrl, slider, HSizePosZ(4, 4).BottomPosZ(32, 24))
+	ITEM(Upp::SliderCtrl, volumeSlider, HCenterPosZ(112, 192).BottomPosZ(8, 20))
+END_LAYOUT
+
